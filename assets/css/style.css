@@ -241,9 +241,39 @@ main {
   #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
   }
+}
 
-  #reasons {
+@media (min-width: 1200px) {
+  #benefits {
     display: flex;
     flex-direction: row;
+  }
+
+  #reasons h2 {
+    text-align: center;
+  }
+
+  #benefits div {
+    flex: 1;
+  }
+
+  #benefits-image {
+    order: 0;
+  }
+
+  #benefits-mental {
+    order: 1;
+  }
+
+  #benefits-mental > div {
+    align-self: flex-start;
+  }
+
+  #benefits-physical > div {
+    align-self: flex-end;
+  }
+
+  #benefits-mental div {
+    width: 100%;
   }
 }
