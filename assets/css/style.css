@@ -189,6 +189,17 @@ main {
   color: #fafafa;
 }
 /* Meetup Times END */
+
+/* Gallery PAGE */
+#photos {
+  line-height: 0;
+}
+#photos img {
+  width: 100%;
+  line-height: 1em;
+}
+/* Gallery END */
+
 /* Footer---------- */
 
 #social-networks {
